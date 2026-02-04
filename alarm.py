@@ -96,8 +96,7 @@ def alarm2(packet, scan, protocol, username="", password=""):
     global COUNT
     COUNT += 1
     print("ALERT #" + str(COUNT) + ": " + scan + " is detected from " + str(packet[IP].src) + " (" + protocol + ")!" + " " + username + password)
-
-#DO NOT MODIFY CODE BELOW
+# Terminal Arguments
 parser = argparse.ArgumentParser(description='A network sniffer that identifies basic vulnerabilities')
 parser.add_argument('-i', dest='interface', help='Network interface to sniff on', default='eth0')
 parser.add_argument('-r', dest='pcapfile', help='A PCAP file to read')
