@@ -25,7 +25,7 @@ I designed the tool to catch "in-the-clear" transmissions to demonstrate protoco
 
 **FTP & IMAP:** I parse command strings like USER, PASS, and LOGIN to extract raw credentials from the payload.
 
-## How to Use My Tool
+## How to Use
 ### Prerequisites
 - Python 3.x.
 - The scapy library.
